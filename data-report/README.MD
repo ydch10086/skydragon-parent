@@ -1,0 +1,10 @@
+1.该工程是安能快递运营系统(天龙系统)的报表系统,读取数据为天龙系统的备份库
+2.系统采用包分层,分层原则为com.ane.report.${moduleName}.${funcationName}.model/service/dao/action
+	eg：运营模块下的扫描数据报表包结构为:
+		com.ane.report.operation.scan.model
+		com.ane.report.operation.scan.dao
+		com.ane.report.operation.scan.service
+		com.ane.report.operation.scan.action
+3.配置文件要求发到src/main/resources下的包结构中
+4.展示界面为jsp,前台框架使用jquery+bootstrap
+5.jsp页面已经css、js等前端内容也按照大模块+小模块的目录结构
